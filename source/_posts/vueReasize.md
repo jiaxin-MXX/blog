@@ -11,7 +11,7 @@ cover: '2020/05/21/vuePull/vue.png'
 ### Vue监听dom大小改变
 > 需求描述：layout左边菜单栏收缩，右边的content区域的swiper宽度没有改变（没有图，朋友的问题，大体画一下）
 
-![](C:\Users\ljk\Desktop\图片1.png)
+![大概的图片](vueReasize/test.png)
 
 > 类似于点击折叠左边目录会变小，右边内容区域会变大，但是swiper在刚开始的时候就确定了宽度，所以我的想法是监听右边宽度大小去updata一下。但是我用vue的watch监听$refs.swiper.offsetwidth失败了！！！！但是宽度确实是在改变的很费解，先说一下解决方法把
 
